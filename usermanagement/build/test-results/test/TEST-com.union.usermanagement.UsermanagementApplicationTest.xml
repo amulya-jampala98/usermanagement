@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.union.usermanagement.UsermanagementApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-20T16:37:20" hostname="DESKTOP-8BMEV1F" time="13.625">
+  <properties/>
+  <testcase name="testMainMethod" classname="com.union.usermanagement.UsermanagementApplicationTest" time="13.625"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.7)
+
+2023-06-20T22:07:23.175+05:30  INFO 20924 --- [    Test worker] c.u.u.UsermanagementApplication          : Starting UsermanagementApplication using Java 17.0.7 with PID 20924 (started by Admin in C:\usermanagement)
+2023-06-20T22:07:23.191+05:30  INFO 20924 --- [    Test worker] c.u.u.UsermanagementApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-06-20T22:07:25.454+05:30  INFO 20924 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-20T22:07:25.668+05:30  INFO 20924 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 1 JPA repository interfaces.
+2023-06-20T22:07:27.318+05:30  INFO 20924 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-20T22:07:27.362+05:30  INFO 20924 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-20T22:07:27.363+05:30  INFO 20924 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-20T22:07:27.661+05:30  INFO 20924 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-20T22:07:27.667+05:30  INFO 20924 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4306 ms
+2023-06-20T22:07:28.134+05:30  INFO 20924 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-20T22:07:28.353+05:30  INFO 20924 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-20T22:07:29.402+05:30  INFO 20924 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-20T22:07:30.149+05:30  INFO 20924 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@460eb276
+2023-06-20T22:07:30.156+05:30  INFO 20924 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-20T22:07:30.221+05:30  WARN 20924 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-06-20T22:07:30.229+05:30  INFO 20924 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-06-20T22:07:30.233+05:30  WARN 20924 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-06-20T22:07:32.656+05:30  INFO 20924 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-20T22:07:32.689+05:30  INFO 20924 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-20T22:07:33.451+05:30  WARN 20924 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-20T22:07:34.312+05:30  INFO 20924 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-20T22:07:34.328+05:30  INFO 20924 --- [    Test worker] c.u.u.UsermanagementApplication          : Started UsermanagementApplication in 12.832 seconds (process running for 15.458)
+]]></system-out>
+  <system-err><![CDATA[[2023.06.20 22:07:21] (Coverage): Error during class instrumentation: org.springframework.boot.logging.log4j2.Log4J2LoggingSystem: java.lang.RuntimeException: java.io.IOException: Class org/apache/logging/log4j/core/config/composite/CompositeConfiguration not found
+[2023.06.20 22:07:25] (Coverage): Error during class instrumentation: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport: java.lang.RuntimeException: java.io.IOException: Class jakarta/validation/ValidatorFactory not found
+]]></system-err>
+</testsuite>
